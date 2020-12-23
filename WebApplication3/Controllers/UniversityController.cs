@@ -30,10 +30,10 @@ namespace WebApplication3.Controllers
             return View();
         }
         [HttpPost]
-   //     public ActionResult AddUni(University university)
-     //   {
-       //     if (!ModelState.IsValid)
-         //       return View(university);
+        //public ActionResult AddUni(University university)
+        //{
+          //  if (!ModelState.IsValid)
+            //return View();
         //}
 
         public ActionResult EditUni()

@@ -168,6 +168,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DeansController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -248,6 +249,11 @@
     <Content Include="Views\University\EditUni.cshtml" />
     <Content Include="Views\University\DeleteUni.cshtml" />
     <Content Include="Views\University\AddUni.cshtml" />
+    <Content Include="Views\Deans\Create.cshtml" />
+    <Content Include="Views\Deans\Delete.cshtml" />
+    <Content Include="Views\Deans\Details.cshtml" />
+    <Content Include="Views\Deans\Edit.cshtml" />
+    <Content Include="Views\Deans\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
