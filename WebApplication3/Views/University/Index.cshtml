@@ -1,0 +1,45 @@
+﻿@using WebApplication3.Models;
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<li>@Html.ActionLink("Add University", "AddUni", "University")</li>
+
+
+<h2>List of Universities</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            NAME
+        </th>
+        <th>
+            FOUNDED
+        </th>
+        <th>
+            ADDRESS
+        </th>
+    </tr>
+
+    @foreach (var item in ViewBag.Universities)
+    {
+        <tr>
+            <td>
+                @item.Id
+            </td>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.Founded
+            </td>
+            <td>
+                @item.Address
+            </td>
+        </tr>
+    }
+</table>
